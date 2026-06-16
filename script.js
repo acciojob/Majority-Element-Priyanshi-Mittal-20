@@ -1,5 +1,5 @@
 //your code here
-let arr=[2,1,2]
+
 function majorElement(arr)
 {
 	let map=new Map()
@@ -22,4 +22,5 @@ function majorElement(arr)
 			}
 		}
 }
-majorElement(arr)
+
+module.exports = majorElement;
