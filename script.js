@@ -1,6 +1,6 @@
 //your code here
 let arr=[2,1,2]
-function majority(arr)
+function majorElement(arr)
 {
 	let map=new Map()
 	for(let i of arr)
@@ -22,4 +22,4 @@ function majority(arr)
 			}
 		}
 }
-majority(arr)
+majorElement(arr)
